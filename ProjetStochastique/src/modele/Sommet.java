@@ -3,11 +3,11 @@ package modele;
 public class Sommet {
 	
 	private String name;
-	private int x;
-	private int y;
+	private double x;
+	private double y;
 	
 	
-	public Sommet(String name, int x, int y) {
+	public Sommet(String name, double x, double y) {
 		this.name=name;
 		this.x=x;
 		this.y=y;
@@ -18,20 +18,20 @@ public class Sommet {
 		return name;
 	}
 	
-	public String getX() {
-		return name;
+	public double getX() {
+		return x;
 	}
 	
-	public String getY() {
-		return name;
+	public double getY() {
+		return y;
 	}
 	
 	
-	public void setX(int x) {
+	public void setX(double x) {
 		this.x=x;
 	}
 	
-	public void setY(int y) {
+	public void setY(double y) {
 		this.y=y;
 	}
 
